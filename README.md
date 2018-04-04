@@ -11,7 +11,7 @@ A data structure for searching for keywords.
 
 ## Installation
 
-`pip install keywordtree`
+`pip install keyword-tree`
  or download the package and `python setup.py install`
 
 ## Usage
