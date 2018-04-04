@@ -1,7 +1,7 @@
 from setuptools import setup
 
-setup(name='keywordtree',
-      version='0.5.0',
+setup(name='keyword_tree',
+      version='0.5.1',
       description='Data-structure for keyword searches',
       url='https://dpettifor.crc.nd.edu/software/keyword_tree/',
       author='David W Pettifor',

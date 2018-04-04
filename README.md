@@ -6,7 +6,7 @@ A data structure for searching for keywords.
 
 ## Download
 
-- PyPI: https://pypi.org/projects/keywordtree/
+- PyPI: https://pypi.org/project/keyword-tree/
 - GitHub: https://github.com/david-pettifor-nd/keyword_tree
 
 ## Installation
