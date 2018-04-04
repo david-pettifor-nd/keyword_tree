@@ -9,4 +9,5 @@ setup(name='keywordtree',
       license='GPL-3.0',
       packages=['keywordtree'],
       install_requires=['pympler'],
+      keywords=['keyword', 'tree'],
       zip_safe=False)

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Keyword Tree
+keywordtree
 
 This class constructs a data structure that allows for optimal searching for keywords within a group of text.
 It is designed to hold very large sets of keywords and quickly return a list of keywords it finds.  The purpose
@@ -408,7 +408,7 @@ class Tree:
                 length = sys.stdout.write("'" + self.keyword + "'")
 
         for s in self.subtree:
-            s.printTree(details, level + 1)
+            s.print_tree(details, level + 1)
 
     def prune(self, incoming_text):
         """
@@ -481,7 +481,7 @@ class Tree:
         # now run through each subtree, removing if it returns an empty list
         to_remove = [] # used for deleting subtrees
         for tree in self.subtree:
-            subtree_list = tree.Prune(text)
+            subtree_list = tree.prune(text)
             if subtree_list == []:
                 # remove this subtree
                 to_remove.append(tree)

@@ -1,6 +1,8 @@
+setup.cfg
 setup.py
-keywordtree/keywordtree.py
 keywordtree/__init__.py
+keywordtree/keywordtree.py
+keywordtree/tests.py
 keywordtree.egg-info/PKG-INFO
 keywordtree.egg-info/SOURCES.txt
 keywordtree.egg-info/dependency_links.txt

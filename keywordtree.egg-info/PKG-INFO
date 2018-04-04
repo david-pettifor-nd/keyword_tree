@@ -1,10 +1,11 @@
-Metadata-Version: 1.1
+Metadata-Version: 1.0
 Name: keywordtree
 Version: 0.5.0
 Summary: Data-structure for keyword searches
-Home-page: https://dpettifo.crc.nd.edu/software/keyword_tree/
+Home-page: https://dpettifor.crc.nd.edu/software/keyword_tree/
 Author: David W Pettifor
 Author-email: dpettifo@nd.edu
 License: GPL-3.0
 Description: UNKNOWN
+Keywords: keyword,tree
 Platform: UNKNOWN

@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
-Name: KeywordTree
-Version: 0.4.2
+Name: keywordtree
+Version: 0.5.0
 Summary: Data-structure for keyword searches
 Home-page: http://www.nd.edu/~dpettifo/software/keyword_tree/
 Author: David W Pettifor
 Author-email: dpettifo@nd.edu
 License: GPL-3.0
-Description: UNKNOWN
-Platform: UNKNOWN
+Description: Data structure for keyword searching
+Platform: Python 2.7+
