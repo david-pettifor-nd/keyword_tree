@@ -93,6 +93,16 @@ class KeywordTreeTest(unittest.TestCase):
         self.assertTrue('blanket' in str(dump))
         self.assertTrue('bubbles' in str(dump))
 
+    def test_pruning(self):
+        """Do we get the right results back when pruning?"""
+        tree = Tree(
+            keywords=['bobby', 'blanket', 'bubbles', 'book', 'blood', 'bar', 'cat', 'category', 'car', 'cost'])
+
+        sentence = 'I like to read my book next to my cat.'
+        words = tree.prune(sentence)
+        self.assertTrue('book' in words)
+        self.assertTrue('cat' in words)
+        self.assertFalse('cost' in words)
 
 
 if __name__ == '__main__':

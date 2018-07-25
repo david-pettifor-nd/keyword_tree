@@ -191,8 +191,10 @@ class Tree:
 
         # do nothing if it's a duplicate keyword
         if greatest_common_text == keyword['keyword']:
-            # we have a duplicate!
-            return
+            # make sure this root's not the same
+            if self.keyword == keyword['keyword']:
+                self.is_leaf = True
+                return
 
         # To prevent infinite recursion, if the only common
         # letters between our leaves is our current keyword, just add
